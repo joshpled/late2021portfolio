@@ -1,0 +1,20 @@
+.navbar {
+  display: flex;
+  padding: 10px;
+  background-color: red;
+
+  .navbar-socials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    .social-link {
+      margin: 5px;
+    }
+  }
+  #brand {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
