@@ -19,6 +19,9 @@
   i {
     color: $highlight-color;
   }
+  .navbar {
+    background-color: $shadows-color;
+  }
 
   .hamburger-inner {
     &,
@@ -49,6 +52,9 @@
     linear-gradient(335deg, $highlight-color 10px, transparent 10px), linear-gradient(155deg, $highlight-color 10px, transparent 10px);
   i {
     color: $shadows-color;
+  }
+  .navbar {
+    background-color: $highlight-color;
   }
   .hamburger-inner {
     &,

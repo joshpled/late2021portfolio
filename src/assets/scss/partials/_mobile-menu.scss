@@ -1,9 +1,12 @@
 .mobile-menu-wrapper {
   display: flex;
   flex-direction: column;
-  background-color: hsla($shadows-color, 85%);
+  background-color: rgba($shadows-color, 90%);
   align-items: center;
   border-top: 3px solid $primary-color;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
   a {
     text-decoration: none;
     font-weight: 600;
@@ -11,19 +14,46 @@
     width: 70%;
     color: rgb(160, 160, 160);
   }
+
   i {
     margin: 10px 20px;
   }
+
   &.open-menu {
-    animation: open-menu-animation 2s forwards;
+    animation: open-menu-animation 1s forwards;
+  }
+
+  &.close-menu {
+    animation: close-menu-animation 1s forwards;
+  }
+
+  @include for-tablet-portrait-up {
+    display: none;
   }
 }
 
 @keyframes open-menu-animation {
   0% {
-    height: 0vh;
+    height: 0px;
+    opacity: 0;
+    z-index: -999;
   }
   100% {
-    height: 100vh;
+    height: 280px;
+    opacity: 1;
+  }
+}
+
+@keyframes close-menu-animation {
+  0% {
+    height: 280px;
+    opacity: 1;
+  }
+  99% {
+    height: 0px;
+    opacity: 0;
+  }
+  100% {
+    z-index: -999;
   }
 }

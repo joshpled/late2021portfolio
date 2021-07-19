@@ -1,6 +1,6 @@
 export default function MobileMenu({ openMenu }) {
   return (
-    <div className={`mobile-menu-wrapper ${openMenu ? "open-menu" : ""}`}>
+    <div className={`mobile-menu-wrapper ${openMenu ? "open-menu" : "close-menu"}`}>
       <a href="https://www.linkedin.com/in/joshuaperezleduc/" target="_blank" rel="noreferrer" referrerPolicy="no-referrer">
         <i className="fab fa-linkedin fa-2x social-link" /> LinkedIn
       </a>

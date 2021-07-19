@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "components/Navbar";
-import Projects from "components/Projects";
+import Projects from "components/Projects/Projects";
 import MobileMenu from "components/MobileMenu";
 import { useWindowSize } from "react-use";
 
@@ -35,7 +35,7 @@ function App() {
         {width >= 376 && <Navbar setTheme={setTheme} />}
       </header>
       <main>
-        {hamburger && <MobileMenu openMenu={hamburger} />}
+        <MobileMenu openMenu={hamburger} />
         <Projects />
       </main>
       <footer></footer>
