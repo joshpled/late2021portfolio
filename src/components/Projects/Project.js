@@ -1,4 +1,4 @@
-export default function Project({ title, technologies, link, image }) {
+export default function Project({ title, technologies, link, image, demo }) {
   return (
     <div className="project-card">
       <img src={image} alt="project" />
@@ -7,9 +7,9 @@ export default function Project({ title, technologies, link, image }) {
         <h3>{technologies}</h3>
         <div className="project-links">
           <a href={link}>
-            <i class="fab fa-github fa-2x"></i>
+            <i className="fab fa-github fa-2x"></i>
           </a>
-          <a href="http://google.com" id="project-demo">
+          <a href={demo} id="project-demo">
             Demo
           </a>
         </div>

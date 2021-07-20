@@ -17,3 +17,19 @@
     width: 100%;
   }
 }
+
+.navbar-filter {
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  place-content: center center;
+  align-items: center;
+  background-color: rgba($color: $primary-color, $alpha: 0.7);
+  h3 {
+    font-weight: 400;
+  }
+
+  input {
+    margin: 10px;
+  }
+}

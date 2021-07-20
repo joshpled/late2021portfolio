@@ -11,6 +11,11 @@ function App() {
   const handleBurger = () => {
     setHamburger((prev) => !prev);
   };
+  const [filter, setFilter] = useState("none");
+
+  const valueChange = (e) => {
+    setFilter(e.target.name);
+  };
 
   return (
     <div className={`main-container theme-${theme ? "light" : "dark"}`}>
@@ -32,11 +37,11 @@ function App() {
             </button>
           </div>
         )}
-        {width >= 376 && <Navbar setTheme={setTheme} />}
+        {width >= 376 && <Navbar setTheme={setTheme} filter={filter} valueChange={valueChange} />}
       </header>
       <main>
         <MobileMenu openMenu={hamburger} />
-        <Projects />
+        <Projects filter={filter} />
       </main>
       <footer></footer>
     </div>
