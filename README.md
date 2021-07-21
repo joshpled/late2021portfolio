@@ -6,20 +6,20 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
+<center>
+
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![resume][resume-shield]][resume-url]
 
-
-
+</center>
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/joshpled/late2021portfolio">
+  <a href="http://joshuapleduc.com">
     <img src="https://i.imgur.com/uxx6d9j.png" alt="Logo" width="400" height="400">
   </a>
 
@@ -32,80 +32,47 @@ Programming Languages: JavaScript, Ruby
 Web Technologies: React.js, HTML5, CSS, Thunk, Redux, Bootstrap, Rails, Vue, Angular,  Apollo, Mongoose, MongoDB, Postgres, SQLite, Firebase
 
 Fluent Languages: English, Spanish
+    <br /><br/>
+    <a href="joshuapleduc.com"><strong>Explore the Website Portfolio »</strong></a>
     <br />
-    <a href="https://github.com/joshpled/late2021portfolio"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/joshpled/late2021portfolio">View Demo</a>
-    ·
-    <a href="https://github.com/joshpled/late2021portfolio/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/joshpled/late2021portfolio/issues">Request Feature</a>
   </p>
 </p>
 
-
-
-<!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-site">About the Site</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#see-locally">See locally</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
+
   </ol>
 </details>
 
+## About The Site
 
+<a href="http://joshuapleduc.com">Go to Site</a><br/>
+Showcases all of my work, work experience, personal projects, and school projects alike.
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
-
-
+Dark Mode
+[![Website Screen Shot][product-screenshot]](https://i.imgur.com/uP3eVTE.png)<br/>
+Light Mode
+[![Website Screen Shot 2][product-screenshot2]](https://i.imgur.com/mPv9tDM.png)
 ### Built With
 
-* []()
-* []()
-* []()
+* [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
+* [SASS](https://sass-lang.com/)
+* [Deployed to Netlify](https://www.netlify.com/)
 
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
+### See locally
 
 1. Clone the repo
    ```sh
@@ -115,76 +82,36 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
+3. Run locally with NPM Start
+   ```sh
+   npm start
+   ```
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/joshpled/late2021portfolio/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
-<!-- LICENSE -->
+* Working on adding more information about myself
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
+<h3>
+Joshua Perez Leduc<br/>
+</h3>
+<a href="mailto:joshuapleduc@gmail.com">
+joshuapleduc@gmail.com
+</a>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/joshpled/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/joshpled/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/joshpled/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/joshpled/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/joshpled/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/joshpled/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/joshpled/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/joshpled/repo/issues
-[license-shield]: https://img.shields.io/github/license/joshpled/repo.svg?style=for-the-badge
-[license-url]: https://github.com/joshpled/repo/blob/master/LICENSE.txt
+[forks-shield]: https://img.shields.io/github/forks/joshpled/late2021portfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/joshpled/late2021portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/joshpled/late2021portfolio.svg?style=for-the-badge
+[stars-url]: https://github.com/joshpled/late2021portfolio/stargazers
+[license-shield]: https://img.shields.io/github/license/joshpled/late2021portfolio.svg?style=for-the-badge
+[license-url]: https://github.com/joshpled/late2021portfolio/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joshuaperezleduc/
+[resume-shield]: https://img.shields.io/badge/-resume-black.svg?style=for-the-badge&logo=googledrive&colorB=555
+[resume-url]: https://drive.google.com/file/d/11LjmfBuYmrrUER4FJd0eqIFtvgnfD-Qo/view
