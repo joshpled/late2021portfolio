@@ -1,7 +1,7 @@
 export const projectsArray = [
   {
     title: "PIBA Foundation",
-    technologies: "MERN, MongoDB, Express.js, React, Node.js, GraphQL. Backend: Heroku, Frontend: Netlify",
+    technologies: "MERN: MongoDB, Express.js, React, Node.js, GraphQL. Backend: Heroku, Frontend: Netlify",
     image: "https://i.imgur.com/mTW7rGB.png",
     link: "https://github.com/joshpled/pibafoundation",
     demo: "https://pibaadmindash.netlify.app/auth/login",
@@ -33,7 +33,7 @@ export const projectsArray = [
   },
   {
     title: "Tamapuri",
-    technologies: "Create-React-App, React, Bootstrap, Backend: Heroku, Frontend: Netlify ",
+    technologies: "Create-React-App, React, Bootstrap, Ruby on Rails Backend; Deployed to Heroku, Frontend: Netlify ",
     image: "https://i.imgur.com/X8QDe4h.png",
     link: "https://github.com/joshpled/Tamapuri2.0",
     demo: "https://tamapuri.netlify.app/",
