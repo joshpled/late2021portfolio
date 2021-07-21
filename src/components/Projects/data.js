@@ -25,10 +25,18 @@ export const projectsArray = [
   },
   {
     title: "TIC-TAC-TOE",
-    technologies: "Create-React-App, React, Bootstrap, ",
+    technologies: "Create-React-App, React, Bootstrap",
     image: "https://i.imgur.com/GVnUsUX.png",
     link: "https://github.com/joshpled/tic-tac-toe",
     demo: "https://joshpled.github.io/tic-tac-toe/",
     type: "personal",
+  },
+  {
+    title: "Tamapuri",
+    technologies: "Create-React-App, React, Bootstrap, Backend: Heroku, Frontend: Netlify ",
+    image: "https://i.imgur.com/X8QDe4h.png",
+    link: "https://github.com/joshpled/Tamapuri2.0",
+    demo: "https://tamapuri.netlify.app/",
+    type: "school",
   },
 ];
