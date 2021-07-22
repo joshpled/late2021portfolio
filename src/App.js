@@ -3,7 +3,6 @@ import Navbar from "components/Navbar";
 import Projects from "components/Projects/Projects";
 import MobileMenu from "components/MobileMenu";
 import { useWindowSize } from "react-use";
-import { Helmet } from "react-helmet";
 
 function App() {
   const { width } = useWindowSize();
@@ -20,16 +19,6 @@ function App() {
 
   return (
     <div className={`main-container theme-${theme ? "light" : "dark"}`}>
-      <Helmet>
-        <meta property="og:title" content="Joshua Perez Leduc | Software Engineer" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://joshuapleduc.com" />
-        <meta property="og:image" content="https://ia.media-imdb.com/images/rock.jpg" />
-        <meta
-          property="og:description"
-          content="I am a software engineer and full stack developer who specializes in building applications specific to the business needs of my clients. I have done work in software development, mobile app creation, front-end/back-end web, and database/server management. My background in graphic design and photography, with experience in Adobe products such as Photoshop and Illustrator, fosters an eye for visual frontend development."
-        />
-      </Helmet>
       <header>
         {width <= 375 && (
           <div className="hamburger--edits">
